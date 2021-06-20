@@ -5,7 +5,7 @@ Helm's [documentation](https://helm.sh/docs) to get started.
 
 Once Helm has been set up correctly, add the repo as follows:
 
-  helm repo add <alias> https://leogsilva.github.io/helm-charts
+  helm repo add <alias> https://leogsilva.github.io/charts
 
 If you had already added this repo earlier, run `helm repo update` to retrieve
 the latest versions of the packages.  You can then run `helm search repo
@@ -13,8 +13,8 @@ the latest versions of the packages.  You can then run `helm search repo
 
 To install the syntropy-agent chart:
 
-    helm install my-syntropy-agent leogsilva/syntropy-agent
+    helm install my-<chart-name> leogsilva/<chart-name>
 
 To uninstall the chart:
 
-    helm delete my-syntropy-agent
+    helm delete my-<chart-name>
